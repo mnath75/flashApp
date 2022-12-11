@@ -1,0 +1,88 @@
+.picture {
+  width: 100%;
+  height: auto;
+}
+
+.bodyText {
+  border: 5px solid #B1D4E0;
+  text-align: center;
+  padding: 60px;
+  color: #B1D4E0; 
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  letter-spacing: 5px;
+  margin: 10px;
+  text-shadow: 10px 10px 5px black;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+bodyTitle {
+  font-size: 35px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.split {
+  width: 50%;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+.left {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.right {
+  padding: 100px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #fefefa;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.container {
+  height: 900px;
+  display: flex;
+  position: relative;
+}
+.Wrapper {
+  position: relative;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  border-radius: 30px;
+}
+
+.inside{
+  border: 3px solid olive;
+  padding: 8px;
+}
+

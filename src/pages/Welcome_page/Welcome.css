@@ -1,0 +1,95 @@
+.WNav{
+  height: 100px;
+  width: 600px;
+}
+.picture{
+  width: 100%;
+  height: auto;
+}
+.bodyText {
+  border: 5px solid rgb(242, 242, 242);
+  text-align: center;
+  padding: 60px;
+  color: rgb(223, 223, 223);
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  letter-spacing: 5px;
+  margin: 10px;
+  text-shadow: 10px 10px 5px black;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+#bodyTitle {
+  font-size: 35px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.split {
+  width: 50%;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 20px; 
+  border-radius: 20px;
+}
+
+.left {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #fbfbfc;
+}
+
+.right {
+  padding: 100px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #000000;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.container {
+  height: 900px;
+  display: flex;
+  position: relative;
+}
+.Wrapper {
+  position: relative;
+}
+
+#brainzs { 
+  height: auto;
+  width: 400px;
+}
+
+#brain {
+  background-color: #fbfbfc;
+}
+
+#braine{
+  background-color: #000000;
+}
+
+.titletext { 
+  color: #f4f4f5;
+}

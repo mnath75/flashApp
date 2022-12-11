@@ -1,0 +1,98 @@
+.information {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    height: 90vh;
+    gap: 40px;
+}
+.intro {
+    width: 60%;
+    text-align: center;
+}
+.intro h1 {
+    font-size: 2.5rem;
+}
+.intro p {
+    font-size: 20px;
+}
+.intro h1 {
+    margin-bottom: 20px;
+}
+.start-now {
+    text-align: center;
+    width: 40%;
+}
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.start-now button {
+    padding: 15px 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.5) -1px 2px 2px;
+    border-radius: 50px;
+    background-color: var(--accent);
+    color: var(--dark);
+    font-weight: bold;
+    margin-top: 20px;
+}
+.start-now button:hover {
+    cursor: pointer;
+    background-color: #e0842e;
+}
+.start-now button:active {
+    box-shadow: none;
+}
+@media screen and (max-width: 750px){
+    .intro h1 {
+        font-size: 2.2rem;
+    }
+    .intro p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 650px){
+    .information {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px 0;
+    }
+    .intro h1 {
+        font-size: 2rem;
+    }
+    .intro p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 450px){
+    .intro p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .intro h1 {
+        font-size: 1.7rem;
+    }
+    .intro p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 360px){
+    .intro {
+        width: 80%;
+    }
+    .intro h1 {
+        font-size: 1.5rem;
+    }
+    .intro p {
+        font-size: 14px;
+    }
+    .start-now {
+        width: 80%;
+    }
+    
+}

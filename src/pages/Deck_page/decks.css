@@ -1,0 +1,37 @@
+.Grid {
+  display: grid;
+  grid-template-columns: auto ;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  height: 770px;
+  background-color: #0C2D48;
+
+}
+ .bigbox {
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #0C2D48;
+  width: 75%;
+ }
+ .innner {
+  border: 2px solid black;
+  margin: 10px;
+  background-color: #0C2D48;
+  color: #B1D4E0;
+  border-radius: 10px;
+  padding: 3px;
+  height:200px;
+  overflow:auto;
+ }
+
+ .decks{
+  text-decoration: none;
+  color: #B1D4E0;
+ }
+
+ .bodywrapper {
+  display: flex;
+  justify-content: left;
+  height: 100%;
+ }

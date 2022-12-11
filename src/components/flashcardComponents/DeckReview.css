@@ -1,0 +1,98 @@
+.deck-review-intro {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+}
+.deck-review-intro p {
+    text-align: center;
+}
+.shuffle-button {
+    background-color: var(--accent);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--dark);
+    font-weight: bold;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) -2px 2px 3px;
+    margin-top: 20px;
+}
+.shuffle-button:hover {
+    cursor: pointer;
+}
+.shuffle-button:active {
+    box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 2px;
+}
+.change-shown-item {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    color: var(--dark);
+    font-weight: bold;
+    border: none;
+    background-color: var(--accent);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) -2px 2px 3px;
+    margin-top: 20px;
+}
+.change-shown-item:hover{
+    cursor: pointer;
+}
+.change-shown-item:active {
+    box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 2px;
+}
+.showed-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.flashcard-review{
+    width: 80%;
+    max-width: 500px;
+    height: 300px;
+    background-color: var(--light);
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px 10px;
+}
+.flashcard-review:hover {
+    cursor: pointer;
+}
+.flashcard-review:active {
+    box-shadow: rgba(0, 0, 0, 0.4) -2px 2px 5px;
+}
+.deck-info-review {
+    margin-top: 50px;
+    text-align: center;
+}
+.back-to-top {
+    text-align: center;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.back-to-top:hover {
+    cursor: pointer;
+}
+@media screen and (max-width: 650px){
+    .deck-review-intro h1 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .deck-review-intro p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .deck-review-intro {
+        width: 70%;
+    }
+    .deck-info-review {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

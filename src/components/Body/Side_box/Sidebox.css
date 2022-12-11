@@ -1,0 +1,40 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: auto;
+}
+.PFP{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+.contacts{
+    border: 2px solid black;
+    margin: 10px;
+    text-align: left;
+    background-color: #0C2D48;
+    color: #B1D4E0;
+    border-radius: 10px;
+    padding: 20px;
+    height: 60%;
+    position: relative;
+    top: 145px;
+
+}
+
+.myself{
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: #0C2D48;
+    color: #B1D4E0;
+    border-radius: 10px;
+    height: 50%;
+}
+.Name {
+    font-size: x-large;
+    text-align: center;
+}
+.list{
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,28 @@
+.wrapper3{
+    display:grid;
+    grid-template-columns: auto;
+}
+.PFP{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+
+.myself3{
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: #0C2D48;
+    color: #B1D4E0;
+    border-radius: 10px;
+    height: 210px;
+}
+.Name3{
+    font-size: x-large;
+    text-align: center;
+}
+.list{
+    margin-bottom: 10px;
+}
+
